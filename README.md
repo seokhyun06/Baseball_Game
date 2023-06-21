@@ -9,9 +9,11 @@
  &nbsp;&nbsp;: 숫자와 자릿수가 모두 틀릴 때는 strike: 0, ball: 0 으로 출력한다.   
   ex) 컴퓨터 내는 숫자가 [2][4][7], 사용자가 내는 숫자가 [2][7][4] 이면 strike : 1 & ball:2로 출력한다.**
 
-[입력받는 인수]
+### [입력받는 인수]
 
-[컴퓨터가 발생시키는 난수]
+				
+### [난수발생]
+컴퓨터가 선택하는 3개 숫자 변수를 만든다.
 ``` java
 import java.io.*;
 import java.util.*;
@@ -36,4 +38,5 @@ public class BaseBall{
 		return playGame(x, y, z);
 	} 
 ```
+##[실행결과]
 
